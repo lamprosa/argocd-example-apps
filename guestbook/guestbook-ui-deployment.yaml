@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: asd
+        app: guestbook-ui
     spec:
       containers:
       - image: quay.io/argoprojlabs/argocd-e2e-container:0.2
